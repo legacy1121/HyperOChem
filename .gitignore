@@ -1,47 +1,102 @@
-# Windows image file caches
-Thumbs.db
+# -----------------------------------------------------------------
+# .gitignore
+# Bare Minimum Git
+# http://ironco.de/bare-minimum-git/
+# ver 20150326
+#
+# From the root of your project run
+# curl -O https://gist.githubusercontent.com/salcode/10017553/raw/.gitignore
+# to download this file
+#
+# This file is tailored for a general web project, it 
+# is NOT optimized for a WordPress project.  See
+# https://gist.github.com/salcode/b515f520d3f8207ecd04 
+# for a WordPress specific .gitignore
+#
+# This file specifies intentionally untracked files to ignore
+# http://git-scm.com/docs/gitignore
+#
+# NOTES:
+# The purpose of gitignore files is to ensure that certain files not
+# tracked by Git remain untracked.
+#
+# To ignore uncommitted changes in a file that is already tracked,
+# use `git update-index --assume-unchanged`.
+#
+# To stop tracking a file that is currently tracked,
+# use `git rm --cached`
+#
+# Change Log:
+# 20150326 ignore jekyll build directory `/_site`
+# 20150324 Reorganized file to list ignores first and whitelisted last,
+#          change WordPress .gitignore link to preferred gist,
+#          add curl line for quick installation
+#          ignore composer files (vendor directory and lock file)
+# 20140606 Add .editorconfig as a tracked file
+# 20140418 remove explicit inclusion 
+#          of readme.md (this is not an ignored file by default)
+# 20140407 Initially Published
+#
+# -----------------------------------------------------------------
+
+# ignore all files starting with . or ~
+.*
+~*
+
+# ignore node/grunt dependency directories
+node_modules/
+
+# ignore composer vendor directory
+/vendor
+
+# ignore composer lock file
+composer.lock
+
+# ignore jekyll build directory
+/_site
+
+# ignore OS generated files
 ehthumbs.db
+Thumbs.db
 
-# Folder config file
-Desktop.ini
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
 
-# Windows shortcuts
-*.lnk
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
 
-# =========================
-# Operating System Files
-# =========================
+# -------------------------
+# BEGIN Whitelisted Files
+# -------------------------
+ 
+# track these files, if they exist
+!.gitignore
+!.editorconfig
+ @Beetle2564
+           
+Write  Preview
 
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+Leave a comment
+Attach files by dragging & dropping
