@@ -1,0 +1,83 @@
+nav{
+	position: relative;
+	z-index: 9;
+	margin: 0% 0.8%;
+	top: -1%;
+	left: 30%;
+}
+
+nav ul ul {
+	display: none;
+}
+	nav ul li:hover > ul {
+		display: block;
+	}
+
+nav ul {
+	background: rgb(239,239,239); 
+	background: linear-gradient(top, rgb(239,239,239) 0%, rgb(187,187,187) 100%);  
+	background: -moz-linear-gradient(top, rgb(239,239,239) 0%, rgb(187,187,187) 100%); 
+	background: -webkit-linear-gradient(top, rgb(239,239,239) 0%,rgb(187,187,187) 100%);
+	border-radius: 8px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	color: rgb(0,0,0);
+	width: 35%;
+}
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+
+nav ul li {
+	float: left;
+	width: 23.5%;
+	text-align: center;
+}
+nav ul li:hover {
+	background: rgba(75,84,95,1);
+	background: linear-gradient(top, rgb(79,89,100) 0%, rgb(95,105,117) 40%);
+	background: -moz-linear-gradient(top, rgb(79,89,100) 0%, rgb(95,105,117) 40%);
+	background: -webkit-linear-gradient(top, rgb(79,89,100) 0%, rgb(95,105,117) 40%);
+}
+	nav ul li:hover a {
+		color: rgb(255,255,255);
+	}
+
+nav ul li a {
+	display: block;
+	padding: 15.5%;
+	color: rgba(75, 75, 75, 1);
+	text-decoration: none;
+}
+
+nav ul ul {
+	background: rgb(95,105,117);
+	border-radius: 0px;
+	padding: 0%;
+	position: absolute;
+	width: 22.05%;
+}
+nav ul ul li {
+	float: none; 
+	border-top: 1px solid rgb(107,114,124);
+	border-bottom: 1px solid #575f6a;
+	position: relative;
+	width: 100%;
+}
+
+nav ul ul li a {
+	padding: 10%;
+	color: rgb(255,255,255);
+}	
+
+nav ul ul li a:hover {
+	background: rgba(75, 84, 95, 1);
+}	
+
+nav ul ul ul {
+	position: absolute;
+	top: 0%;
+	left: 100%;
+	width: 100%;
+}

@@ -11,5 +11,7 @@
 			include "divs/dropdown.html";
 		?>
 		
+		<div id="panel">
+		</div>
 	</body>
 </html>
