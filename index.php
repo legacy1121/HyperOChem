@@ -20,5 +20,6 @@
 			wefwefewf<br />
 			var_dumpvvwefwefewf<br />
 		</div>
+		<?php include "includes/dropdown.html"; ?>
 	</body>
 </html>
