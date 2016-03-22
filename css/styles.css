@@ -12,14 +12,7 @@ body {
 div.main {
 	position: relative;
 	top: 5vh;
-	left: 25vw;
-	width: 72vw;
+	left: 20vw;
+	width: 77vw;
 	background-color: rgb(220,220,220);
-
-#panel{
-	position: absolute;
-	width: 80%;
-	height: 100%;
-	left: 10%;
-	background-color: rgba(255,255,255,0.8);
 }

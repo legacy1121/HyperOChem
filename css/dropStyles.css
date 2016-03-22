@@ -2,9 +2,9 @@
 	position: fixed;
 	top: 5vh;
 	left: 3vw;
-	width: 19vw;
+	width: 14vw;
 	height: 90vh;
-	background-color: gray;
+	background-color: rgb(220,220,220);
 }
 
 #logo{
@@ -26,33 +26,30 @@
 nav{
 	position: relative;
 	z-index: 9;
-	margin: 0vh 1vw;
-	width: 30vw;
+	width: 100%;
 	height: 5vh;
 }
 
 nav ul ul {
 	display: none;
 }
-	nav ul li:hover > ul {
-		display: block;
-	}
+
+nav ul li:hover > ul {
+	display: block;
+}
 
 nav ul {
 	background: rgb(239,239,239); 
-	background: linear-gradient(top, rgb(239,239,239) 0%, rgb(187,187,187) 100%);  
-	background: -moz-linear-gradient(top, rgb(239,239,239) 0%, rgb(187,187,187) 100%); 
-	background: -webkit-linear-gradient(top, rgb(239,239,239) 0%,rgb(187,187,187) 100%);
-	border-radius: 8px;
 	list-style: none;
 	position: relative;
 	display: inline-table;
 	color: rgb(0,0,0);
-	width: 15vw;
+	width: 100%;
 }
-	nav ul:after {
-		content: ""; clear: both; display: block;
-	}
+
+nav ul:after {
+	content: ""; clear: both; display: block;
+}
 
 nav ul li {
 	width: 10vw;
@@ -65,9 +62,10 @@ nav ul li:hover {
 	background: -moz-linear-gradient(top, rgb(79,89,100) 0%, rgb(95,105,117) 40%);
 	background: -webkit-linear-gradient(top, rgb(79,89,100) 0%, rgb(95,105,117) 40%);
 }
-	nav ul li:hover a {
-		color: rgb(255,255,255);
-	}
+
+nav ul li:hover a {
+	color: rgb(255,255,255);
+}
 
 nav ul li a {
 	display: block;
