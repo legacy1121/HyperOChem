@@ -1,17 +1,7 @@
 <html>
-	<head>
-		<link rel="stylesheet" href="css/styles.css" type="text/css"/>
-		<title>
-			HyperOChem
-		</title>
-		<meta name="HyperOChem" content="NOINDEX, NOFOLLOW"/>
-	</head>	
+	<?php include "includes/header.html"; ?>
 	<body>
-		<?php
-			include "divs/dropdown.html";
-		?>
+		<?php include "includes/dropdown.html"; ?>
 		
-		<div id="panel">
-		</div>
 	</body>
 </html>
