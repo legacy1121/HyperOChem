@@ -3,7 +3,7 @@ all {
 }
 
 body {
-	background-color: rgb(245,245,245);
+	background-color: rgb(0,20,80);
 	background-size: 100%;
 	background-attachment: fixed;
 	background-repeat: repeat-n;
@@ -56,7 +56,7 @@ div.main {
 	padding: 0;
 	border: 0;
 	list-style: none;
-	line-height: 1;
+	line-height: 3;
 	display: block;
 	position: relative;
 	-webkit-box-sizing: border-box;
@@ -68,12 +68,12 @@ div.main {
 }
 #cssmenu > ul {
 	width: 14vw;
-	background: #ffffff;
+	background: rgb(46,53,59);
 }
 #cssmenu > ul > li > a {
   padding: 12px 15px;
   font-size: 14px;
-  color: #666666;
+  color: rgb(250,250,250);
   font-weight: 700;
   text-decoration: none;
   -webkit-transition: color .2s ease;
@@ -83,8 +83,8 @@ div.main {
 }
 #cssmenu > ul > li:hover > a,
 #cssmenu > ul > li > a:hover {
-  color: #222222;
-  background-color: rgb(225,225,225)
+  color: rgb(34,34,34);
+  background-color: rgb(240,240,240);
 }
 #cssmenu ul li.has-sub > a::after {
   position: absolute;
@@ -96,12 +96,12 @@ div.main {
   border-radius: 2px;
 }
 #cssmenu > ul > li.has-sub > a::after {
-  top: 14px;
-  background-color: rgb(255,255,255);
+  top: 20px;
+  background: rgb(255,255,255);
 }
 #cssmenu > ul > li.has-sub:hover > a::after,
 #cssmenu > ul > li.has-sub > a:hover::after {
-  background: #222222;
+  background: rgb(34,34,34);
 }
 #cssmenu ul ul li.has-sub > a::after {
   top: 13px;
@@ -123,11 +123,11 @@ div.main {
 }
 #cssmenu > ul > li.has-sub > a::before {
   top: 16px;
-  border-left-color: #ffffff;
+  border-left-color: rgb(255,255,255);
 }
 #cssmenu ul ul li.has-sub > a::before {
   top: 15px;
-  border-left-color: #2e353b;
+  border-left-color: rgb(46,53,59);
 }
 #cssmenu ul {
   -webkit-perspective: 600px;
@@ -141,13 +141,13 @@ div.main {
   position: absolute;
   top: 0;
   left: -9999px;
-  width: 180px;
-  background: #2e353b;
+  width: 8vw;
+  background: rgb(46,53,59);
   opacity: 0;
-  -moz-transition: opacity 0.2s ease, -moz-transform 0.2s ease;
-  -webkit-transition: opacity 0.2s ease, -webkit-transform 0.2s ease;
-  -ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
-  -o-transition: opacity 0.2s ease, -o-transform 0.2s ease;
+  -moz-transition: opacity 0.3s ease, -moz-transform 0.3s ease;
+  -webkit-transition: opacity 0.3s ease, -webkit-transform 0.3s ease;
+  -ms-transition: opacity 0.3s ease, -ms-transform 0.3s ease;
+  -o-transition: opacity 0.3s ease, -o-transform 0.3s ease;
   transition: opacity .2s ease, transform .2s ease;
   -webkit-transform: rotate3d(0, 1, 0, 45deg);
   -moz-transform: rotate3d(0, 1, 0, 45deg);
@@ -173,13 +173,13 @@ div.main {
   width: 0;
   height: 0;
   border: 4px solid transparent;
-  border-right-color: #2e353b;
+  border-right-color: rgb(46,53,59);
   content: "";
 }
 #cssmenu ul ul a {
   padding: 12px 15px;
   font-size: 12px;
-  color: #ffffff;
+  color: rgb(255,255,255);
   font-weight: 700;
   text-decoration: none;
   -webkit-transition: color .2s ease;
@@ -189,5 +189,6 @@ div.main {
 }
 #cssmenu ul ul li:hover > a,
 #cssmenu ul ul li a:hover {
-  color: #dddddd;
+  color: rgb(34,34,34);
+  background-color: rgb(240,240,240);
 }

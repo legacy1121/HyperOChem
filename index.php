@@ -4,8 +4,8 @@
 	</head>	
 	<body>
 		<div class='main'>
-			awefew
+			<h1>Welcome</h1>
 		</div>
-		<?php include "includes/dropdown.html"; ?>
+		<?php include "dropdown.html";?>
 	</body>
 </html>
