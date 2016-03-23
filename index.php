@@ -6,6 +6,6 @@
 		<div class='main'>
 			<h1>Welcome</h1>
 		</div>
-		<?php include "dropdown.html";?>
+		<?php include "includes/dropdown.html";?>
 	</body>
 </html>
