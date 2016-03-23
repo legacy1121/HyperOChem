@@ -1,3 +1,23 @@
+body {
+	background-color: rgb(245,245,245);
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: repeat-n;
+	margin: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	font-size: 20;
+	font-family: Roboto, sans-serif;
+}
+
+div.main {
+	position: relative;
+	top: 5vh;
+	left: 20vw;
+	width: 77vw;
+	background-color: rgb(220,220,220);
+}
+
 #panel{
 	position: fixed;
 	top: 5vh;
