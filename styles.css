@@ -35,24 +35,63 @@ p.subtitle {
 	left: 0;
 	width: 14vw;
 	height: 100vh;
-	background-color: rgb(220,220,220);
+	background-color: rgb(230,230,230);
 }
 
 #logo{
 	position: relative;
 	width: 100%;
-	height: 20%;
+	height: 28%;
+}
+
+#plogo{
+	width: 100%;
+	height: 100%
 }
 
 #searchpan{
 	position: relative;
 	width: 100%;
-	height: 5%;
+	height: 7%;
 }
+
+#innewsearch{
+	float:left;
+	top: 30%;
+	left: 2%;
+	position: absolute;
+}
+.intextinput{
+	padding: 6px 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	border:rgb(0,0,0); border-left:0px;
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+}
+.intext{
+	margin: 0;
+	padding: 6px 8px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: rgb(0,0,0);
+	border-right:0px;
+	border: none;
+	background: linear-gradient(top, rgb(230,230,230) 0%, rgb(170,170,170) 100%);  
+	background: -moz-linear-gradient(top, rgb(230,230,230) 0%, rgb(170,170,170) 100%); 
+	background: -webkit-linear-gradient(top, rgb(230,230,230) 0%,rgb(170,170,170) 100%); 
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+}
+
 #dropdown{
 	position: relative;
 	width: 100%;
-	height: 75%;
+	height: 65%;
 }
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:700);
@@ -76,127 +115,74 @@ p.subtitle {
 }
 #cssmenu > ul {
 	width: 14vw;
-	background: rgb(46,53,59);
 }
 #cssmenu > ul > li > a {
-  padding: 12px 15px;
-  font-size: 14px;
-  color: rgb(250,250,250);
-  font-weight: 700;
-  text-decoration: none;
-  -webkit-transition: color .2s ease;
-  -o-transition: color .2s ease;
-  -ms-transition: color .2s ease;
-  transition: color .2s ease;
+	padding: 12px 15px;
+	font-size: 14px;
+	background: rgb(190,190,190);
+	color: rgb(34,34,34);
+	font-weight: 600;
+	text-decoration: none;
+	-webkit-transition: color .4s ease;
+	-o-transition: color .4s ease;
+	-ms-transition: color .4s ease;
+	transition: color .4s ease;
 }
 #cssmenu > ul > li:hover > a,
 #cssmenu > ul > li > a:hover {
-  color: rgb(34,34,34);
-  background-color: rgb(240,240,240);
-}
-#cssmenu ul li.has-sub > a::after {
-  position: absolute;
-  right: 15px;
-  display: block;
-  width: 10px;
-  height: 10px;
-  content: "";
-  border-radius: 2px;
-}
-#cssmenu > ul > li.has-sub > a::after {
-  top: 20px;
-  background: rgb(255,255,255);
-}
-#cssmenu > ul > li.has-sub:hover > a::after,
-#cssmenu > ul > li.has-sub > a:hover::after {
-  background: rgb(34,34,34);
-}
-#cssmenu ul ul li.has-sub > a::after {
-  top: 13px;
-  background-color: rgb(255,255,255);
-}
-#cssmenu ul ul li.has-sub:hover > a::after,
-#cssmenu ul ul li.has-sub > a:hover::after {
-  background-color: rgb(255,255,255);
-}
-#cssmenu ul li.has-sub > a::before {
-  position: absolute;
-  right: 15px;
-  z-index: 2;
-  display: block;
-  width: 0;
-  height: 0;
-  border: 3px solid transparent;
-  content: "";
-}
-#cssmenu > ul > li.has-sub > a::before {
-  top: 16px;
-  border-left-color: rgb(255,255,255);
-}
-#cssmenu ul ul li.has-sub > a::before {
-  top: 15px;
-  border-left-color: rgb(46,53,59);
+	color: rgb(250,250,250);
+	background-color: rgb(46,53,59);
 }
 #cssmenu ul {
-  -webkit-perspective: 600px;
-  -moz-perspective: 600px;
-  perspective: 600px;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d;
+	-webkit-perspective: 600px;
+	-moz-perspective: 600px;
+	perspective: 600px;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
 }
 #cssmenu ul ul {
-  position: absolute;
-  top: 0;
-  left: -9999px;
-  width: 8vw;
-  background: rgb(46,53,59);
-  opacity: 0;
-  -moz-transition: opacity 0.3s ease, -moz-transform 0.3s ease;
-  -webkit-transition: opacity 0.3s ease, -webkit-transform 0.3s ease;
-  -ms-transition: opacity 0.3s ease, -ms-transform 0.3s ease;
-  -o-transition: opacity 0.3s ease, -o-transform 0.3s ease;
-  transition: opacity .2s ease, transform .2s ease;
-  -webkit-transform: rotate3d(0, 1, 0, 45deg);
-  -moz-transform: rotate3d(0, 1, 0, 45deg);
-  transform: rotate3d(0, 1, 0, 45deg);
-  -webkit-transform-origin: left center;
-  -moz-transform-origin: left center;
-  transform-origin: left center;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: -9999px;
+	width: 8vw;
+	line-height: 4;
+	background: rgb(46,53,59);
+	opacity: 0;
+	-moz-transition: opacity 0.4s ease, -moz-transform 0.4s ease;
+	-webkit-transition: opacity 0.4s ease, -webkit-transform 0.4s ease;
+	-ms-transition: opacity 0.4s ease, -ms-transform 0.4s ease;
+	-o-transition: opacity 0.4s ease, -o-transform 0.4s ease;
+	transition: opacity .4s ease, transform .4s ease;
+	-webkit-transform: rotate3d(0, 1, 0, 45deg);
+	-moz-transform: rotate3d(0, 1, 0, 45deg);
+	transform: rotate3d(0, 1, 0, 45deg);
+	-webkit-transform-origin: left center;
+	-moz-transform-origin: left center;
+	transform-origin: left center;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
 }
 #cssmenu ul li:hover > ul {
-  left: 100%;
-  opacity: 1;
-  transform: rotate3d(0, 0, 0, 0);
-}
-#cssmenu ul ul::after {
-  position: absolute;
-  left: -8px;
-  top: 14px;
-  z-index: 5;
-  display: block;
-  width: 0;
-  height: 0;
-  border: 4px solid transparent;
-  border-right-color: rgb(46,53,59);
-  content: "";
+	left: 100%;
+	opacity: 1;
+	transform: rotate3d(0, 0, 0, 0);
 }
 #cssmenu ul ul a {
-  padding: 12px 15px;
-  font-size: 12px;
-  color: rgb(255,255,255);
-  font-weight: 700;
-  text-decoration: none;
-  -webkit-transition: color .2s ease;
-  -o-transition: color .2s ease;
-  -ms-transition: color .2s ease;
-  transition: color .2s ease;
+	padding: 12px 10px;
+	font-size: 14px;
+	color: rgb(255,255,255);
+	background-color: rgb(46,53,59);
+	font-weight: 600;
+	text-decoration: none;
+	-webkit-transition: color .4s ease;
+	-o-transition: color .4s ease;
+	-ms-transition: color .4s ease;
+	transition: color .4s ease;
 }
 #cssmenu ul ul li:hover > a,
 #cssmenu ul ul li a:hover {
-  color: rgb(34,34,34);
-  background-color: rgb(240,240,240);
+	color: rgb(34,34,34);
+	background-color: rgb(190,190,190);
 }
