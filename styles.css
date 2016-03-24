@@ -1,22 +1,21 @@
 body {
-	background-color: rgb(0,20,80);
 	background-size: 100%;
 	background-attachment: fixed;
 	background-repeat: repeat-n;
 	margin: 0;
-	overflow-x: hidden;
-	overflow-y: auto;
+	overflow: hidden;
 	font-size: 18;
 	font-family: Helvetica, sans-serif;
 }
 
 div.main {
+	overflow-y: auto;
 	position: relative;
-	min-height: 90vh;
-	top: 5vh;
-	left: 20vw;
-	width: 77vw;
-	background-color: rgb(220,220,220);
+	min-height: 100vh;
+	top: 0;
+	left: 14vw;
+	width: 84vw;
+	background-color: rgb(240,240,240);
 	padding: 1% 1% 1% 1%;
 }
 
@@ -32,10 +31,10 @@ p.subtitle {
 
 #panel{
 	position: fixed;
-	top: 5vh;
-	left: 3vw;
+	top: 0;
+	left: 0;
 	width: 14vw;
-	height: 90vh;
+	height: 100vh;
 	background-color: rgb(220,220,220);
 }
 
