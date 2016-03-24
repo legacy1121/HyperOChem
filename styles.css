@@ -1,3 +1,8 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:700);
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
 body {
 	background-size: 100%;
 	background-attachment: fixed;
@@ -46,7 +51,10 @@ p.subtitle {
 
 #plogo{
 	width: 100%;
-	height: 100%
+	height: 100%;
+	/* -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite; */
 }
 
 #searchpan{
@@ -94,7 +102,6 @@ p.subtitle {
 	height: 65%;
 }
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:700);
 #cssmenu,
 #cssmenu ul,
 #cssmenu ul li,
