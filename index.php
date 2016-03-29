@@ -4,7 +4,7 @@
 	</head>	
 	<body>
 		<div class='main'>
-			<p class='title'>HyperOChem</h1>
+			<p class='title'>HyperOChem</p>
 			<hr>
 			<p class='subtitle'>Organic Chemistry</p>
 			<p>Organic Chemistry is a subdiscipline of chemistry that focuses on the structure, properties, and reactions of organic compounds, or compounds containing carbon.
