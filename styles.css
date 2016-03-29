@@ -3,7 +3,6 @@ body {
 	background-attachment: fixed;
 	background-repeat: repeat-n;
 	margin: 0;
-	overflow: hidden;
 	font-size: 18;
 	font-family: Helvetica, sans-serif;
 }
@@ -20,12 +19,12 @@ div.main {
 }
 
 p.title {
-	font-size: 200%;
+	font-size: 250%;
 	line-height: 0;
 }
 
 p.subtitle {
-	font-size: 150%;
+	font-size: 180%;
 	line-height: 10%;
 }
 
