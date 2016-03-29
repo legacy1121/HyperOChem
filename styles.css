@@ -1,8 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:700);
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
 body {
 	background-size: 100%;
 	background-attachment: fixed;
@@ -46,15 +41,12 @@ p.subtitle {
 #logo{
 	position: relative;
 	width: 100%;
-	height: 28%;
+	height: 8.25vw;
 }
 
 #plogo{
 	width: 100%;
 	height: 100%;
-	-webkit-animation:spin 2s linear infinite;
-    -moz-animation:spin 2s linear infinite;
-    animation:spin 2s linear infinite;
 }
 
 #searchpan{
