@@ -28,12 +28,14 @@
 					</li>
 					<li><a href='#'>Reactions</a>
 						<ul>
-							<li><a href='#'>Mechanisms</a></li>
-							<li><a href='#'>Substitution</a></li>
+							<li><a href='#'>Mechanisms</a>
+							</li>
+							<li><a href='#'>Substitution</a>
 								<ul>
 									<li><a href='#'>SN1</a></li>
 									<li><a href='#'>SN2</a></li> 
 								</ul>
+							</li>
 							<li><a href='#'>Elimination</a>
 								<ul>
 									<li><a href='#'>E1</a></li>
@@ -50,10 +52,9 @@
 					</li>
 					<li><a href='#'>Spectroscopy</a>
 						<ul>
-							<li><a href='#'>XRD</a></li>
 							<li><a href='#'>SEM</a></li>
-							<li><a href='#'>TEM</a></li>
-							<li><a href='#'>FTIR</a></li>
+							<li><a href='#'>NMR</a></li>
+							<li><a href='#'>IR</a></li>
 						</ul>
 					</li>
 					<li class='has-sub'><a href='topics/stereochemistry/'>Stereochemistry</a>
@@ -78,4 +79,41 @@
 			</li>
 		</ul>
 	</div>
+	<div id="date"></div>
+		<script type="text/javascript">
+			var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];       
+			update = function(){
+			var today = new Date();
+			var hours;
+			var minutes;
+			var seconds;
+			var x;
+			if(today.getHours() > 12)
+			{
+				x = "PM";
+				hours -= 12;
+			}
+			else
+				x = "AM";
+				
+			if(today.getHours() < 10)
+				hours = "0" + today.getHours();
+			else
+				hours = today.getHours();
+				
+			if(today.getMinutes() < 10)
+				minutes = "0" + today.getMinutes();
+			else
+				minutes = today.getMinutes();
+				
+			if(today.getSeconds() < 10)
+				seconds = "0" + today.getSeconds();
+			else
+				seconds = today.getSeconds();
+			
+			document.getElementById("date").innerHTML = months[today.getMonth()] + " " + today.getDate()+ ", " + today.getFullYear() +"<br>"  + hours +":" + minutes +":" + seconds +" " +x;
+			};
+			update();
+			setInterval(update, 1000);
+		</script>
 </div>
