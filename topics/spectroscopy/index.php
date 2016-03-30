@@ -1,6 +1,6 @@
 <html>
 	<?php include "../../includes/header.html"; ?>
-	<link rel="stylesheet" href="/styles.css" type="text/css"/>
+	<link rel="stylesheet" href="styles.css" type="text/css"/>
 		<title>Spectroscopy</title>
 	</head>	
 	<body>
