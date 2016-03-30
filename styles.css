@@ -5,6 +5,7 @@ body {
 	margin: 0;
 	font-size: 18;
 	font-family: Helvetica, sans-serif;
+	overflow-x: hidden;
 }
 
 div.main {
