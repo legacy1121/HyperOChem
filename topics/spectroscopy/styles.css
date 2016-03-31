@@ -1,5 +1,21 @@
+#eq2{
+	position: relative;
+	width: 15%;
+	height: width;
+	-ms-transform: translate(0,40%); /* IE 9 */
+   	-webkit-transform: translate(0,40%); /* Safari */
+    transform: translate(0,40%);
+}
+
 #eq3{
 	position: relative;
 	width: 5%;
 	height: width;
+	-ms-transform: translate(0,45%); /* IE 9 */
+   	-webkit-transform: translate(0,45%); /* Safari */
+    transform: translate(0,45%);
+}
+
+#ir{
+	line-height: 2;
 }
