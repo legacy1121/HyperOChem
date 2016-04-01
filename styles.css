@@ -65,16 +65,14 @@ p{
 #innewsearch{
 	float:left;
 	top: 30%;
-	left: 2%;
+	left: 0%;
 	position: absolute;
 }
 .intextinput{
-	padding: 6px 10px;
+	padding: 6px 14px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
-	border:rgb(0,0,0); border-left:0px;
-	border-top-right-radius: 5px 5px;
-	border-bottom-right-radius: 5px 5px;
+	border:rgb(0,0,0);
 }
 .intext{
 	margin: 0;
@@ -86,13 +84,10 @@ p{
 	text-align: center;
 	text-decoration: none;
 	color: rgb(0,0,0);
-	border-right:0px;
 	border: none;
 	background: linear-gradient(top, rgb(230,230,230) 0%, rgb(170,170,170) 100%);  
 	background: -moz-linear-gradient(top, rgb(230,230,230) 0%, rgb(170,170,170) 100%); 
 	background: -webkit-linear-gradient(top, rgb(230,230,230) 0%,rgb(170,170,170) 100%); 
-	border-top-left-radius: 5px 5px;
-	border-bottom-left-radius: 5px 5px;
 }
 
 #dropdown{

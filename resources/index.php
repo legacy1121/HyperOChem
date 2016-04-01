@@ -4,7 +4,8 @@
 	</head>	
 	<body>
 		<div class='main'>
-			awefew
+			<p class='title'>Resources</p>
+			<hr>
 		</div>
 		<?php include "../includes/dropdown.html"; ?>
 	</body>

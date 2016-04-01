@@ -118,6 +118,45 @@
 					In viewing the molecular spectrum, the tallest peak is assigned a relative value of 100% and is called the base peak.
 					<br/>
 					<img src="ir6.png" id="ir6"></img>
+					<br/>
+					<br/>
+					Moreover, in discovering the molecular formula, we follow the nitrogen rule, which states that an odd molecular weight indicates an odd number of nitrogen atoms and an even molecular weight either signifies an even number of nitrogen atoms or an absence of nitrogen atoms. 
+					And additionally, the relative heights of the (M)+and (M+1)+  peaks indicate the number of carbon atoms.
+					More useful information can be obtained from comparing the relative heights between the (M+2)+and (M)+ peaks: if the latter peak is approximately one-third as tall as the former peak, the structure likely contains a chlorine atom and if the two peaks are similar in height, there is likely a bromine atom in the structure.
+					A signal at M-15 indicates the loss of a methyl group; a signal at M-29 indicates the loss of an ethyl group.
+					The actual molecular formula of a compound can be determined with high resolution mass spectrometry.
+					In a gas chromatograph-mass spectrometer, a mixture of compounds is first separated based on their boiling points and affinity for the ‘stationary phase’, then each compound is then analyzed individually.     
+					<br/>
+					<br/>
+					<img src="ir7.png" id="ir7"></img>
+					<br/>
+					<br/>
+					<br/>
+					<center>
+						-Ultraviolet-Visible Spectroscopy-the UV light excites the electrons, indicating electron dense (pi-conjugated) systems (multiple bonds, with free electrons); allows for accurate pictures of multiple bonds
+						<br/>
+						<img src="ir8.png" id="ir8"></img>
+						<br/>
+						<br/>
+						-Infrared-
+						<br/>
+						<img src="ir9.png" id="ir9"></img>
+						<br/>
+						<br/>
+						<img src="ir10.png" id="ir10"></img>
+						<br/>
+						<br/>
+						-Nuclear Magnetic Resonance-
+						<br/>
+						<img src="ir11.png" id="ir11"></img>
+						<br/>
+					</center>
+				</p>
+			<br/>
+			<hr id='nmr'>
+				<p class='subtitle'>Nuclear Magnetic Resonance</p>
+				<p>
+					Electromagnetic radiation is used to obtain info on the nuclei of the atoms, further identifying the specific arrangement of all carbon and hydrogen atoms in the compound.
 				</p>
 		</div>
 		<?php include "../../includes/dropdown.html"; ?>
