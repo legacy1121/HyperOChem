@@ -19,3 +19,17 @@
 #ir{
 	line-height: 2;
 }
+
+
+#ir10{
+	position: relative;
+	-ms-transform: translate(0,-30%); /* IE 9 */
+   	-webkit-transform: translate(0,-30%); /* Safari */
+    transform: translate(0,-30%);
+}
+#ir13{
+	position: relative;
+	-ms-transform: translate(0,45%); /* IE 9 */
+   	-webkit-transform: translate(0,45%); /* Safari */
+    transform: translate(0,45%);
+}

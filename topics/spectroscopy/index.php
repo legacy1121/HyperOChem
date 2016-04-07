@@ -106,6 +106,13 @@
 					<br/>
 					<img src="ir5.png" id="ir5"></img>
 				</p>
+				<br/>
+				<center>
+					<p class='subsubtitle'>-Infrared Spectroscopy-</p>
+					<p>
+						<img src="ir9.png" id="ir9"></img>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="ir10.png" id="ir10"></img>
+					</p>
+				</center>
 			<br/>
 			<hr id='ms'>
 				<p class='subtitle'>Mass Spectroscopy</p>
@@ -128,36 +135,82 @@
 					In a gas chromatograph-mass spectrometer, a mixture of compounds is first separated based on their boiling points and affinity for the ‘stationary phase’, then each compound is then analyzed individually.     
 					<br/>
 					<br/>
-					<img src="ir7.png" id="ir7"></img>
-					<br/>
-					<br/>
-					<br/>
-					<center>
-						-Ultraviolet-Visible Spectroscopy-the UV light excites the electrons, indicating electron dense (pi-conjugated) systems (multiple bonds, with free electrons); allows for accurate pictures of multiple bonds
-						<br/>
-						<img src="ir8.png" id="ir8"></img>
-						<br/>
-						<br/>
-						-Infrared-
-						<br/>
-						<img src="ir9.png" id="ir9"></img>
-						<br/>
-						<br/>
-						<img src="ir10.png" id="ir10"></img>
-						<br/>
-						<br/>
-						-Nuclear Magnetic Resonance-
-						<br/>
-						<img src="ir11.png" id="ir11"></img>
-						<br/>
-					</center>
-				</p>
+				<center>
+					</p>
+					<p class='subsubtitle'>-Mass Spectroscopy-</p>
+					</p>
+						<img src="ir7.png" id="ir7"></img>
+					<p>
+				</center>
 			<br/>
 			<hr id='nmr'>
 				<p class='subtitle'>Nuclear Magnetic Resonance</p>
 				<p>
 					Electromagnetic radiation is used to obtain info on the nuclei of the atoms, further identifying the specific arrangement of all carbon and hydrogen atoms in the compound.
 				</p>
+				<p>
+					Nuclei with odd numbers of protons/neutrons have a quantum trait of nuclear spin--can be measured by an NMR spectrometer.
+				</p>
+				<p>
+					Spinning protons create a magnetic field called a magnetic moment--measured commonly on 1H and 13C because of the magnetic moments in the nuclei.
+				</p>
+				<p>
+					When subjected to an external magnetic field, the magnetic moment and the magnetic field interact, and that interaction quantized, causing the proton to align either with or against the external field. An alpha proton is aligned with the external field, and the beta protons against. The beta spin state is of higher energy than the alpha state. The electromagnetic radiation can cause an alpha proton the flip to a beta spin state if there is enough energy provided by the radiation. When flipped, the nucleus is said to be in resonance (NOT the resonance we are used to with compounds), hence nuclear magnetic resonance. However, electrons and their shielding can cause a gap in the amount of radiation the nuclei absorb and the amount of radiation provided.
+				</p>
+				<p>
+				<p class='subsubtitle' id='dia'>Diamagnetism:</p>
+				<p>
+					Nuclei are surrounded by electrons. In the presences of an external magnetic field, the electron density circulates, which produces a local magnetic field that opposes the external magnetic field. Without this effect, all protons would absorb the same frequency of rf radiation, and we wouldn't gain any useful information through NMR
+				</p>
+				<p>
+					The small, induced magnetic field (caused by the electron density circulating around a proton) has an important (though small) effect on the proton. 2 magnetic fields are now acting on the proton, the weak induced magnetic field established by the circulation electron, and the strong external magnetic field. The proton therefore experiences a net magnetic field strength that is slightly smaller than the external magnetic field. The proton is, in this way, shielded by the electrons.
+				</p>
+				<p>
+					Some protons are surrounded by less electron density, and are less shielded, or deshielded, while others are surrounded by more electron density and are more shielded. (The more electron density circulating a proton, the more shielding). As a result, protons in different electronic environments will exhibit a different energy gap between alpha and beta spin states, and therefore will absorb different frequencies of rf radiation: this allows us to probe the electronic environment of each hydrogen atom in a molecule.
+				</p>
+				<p>
+					The magnetic field establishes an energy gap between spin states, which enables the nuclei to absorb rf radiation. The magnitude of this energy gap depends on the strength of the imposed external magnetic field. The energy gap increases with increasing magnetic field strength. The strength of the magnetic field determines the range of frequencies that must be used for NMR Spectroscopy
+				</p>
+				<p>
+					The strong magnetic fields employed in NMR Spectroscopy are produced by passing a current of electrons through a loop composed of superconducting materials (which offer virtually 0 resistance to electric currents, allowing for large magnetic fields to be produced). The superconducting materials only maintain their properties at extremely low temperatures (just a few degrees above absolute zero) and must be kept in a low temperature container.
+				</p>
+				<p>
+					There are 3 traits of an NMR signal--location of each signal reflects the electronic environment of the protons producing the signal; area under the signal indicates the number of protons giving rise to the signal; shape of the signal reflect the number of neighboring protons
+				</p>
+				<p>
+					Protons that are in identical electrical environments are chemically equivalent; they will only produce one signal and can be interchanged by rotation or reflection (symmetrically); homotopic protons are exact equivalents and can be directly interchanged--if either proton was replaced, the molecule could be flipped to be the same; protons that are direct reflections of each other (as if there is a chiral carbon) still share a plane of symmetry, and these protons are considered enantiotopic; diastereotopic protons are not chemically equivalent and produce separate signals
+				</p>
+				<p class='subsubtitle' id='cshift'>Chemical Shift:</p>
+				</p>
+					The first (of three) characteristics of every signal in an NMR spectrum. It is the location of the signal, which is defined relative to the frequency of absorption of a reference compound, TMS (tetramethylsilane).
+				</p>
+				<p>
+					In practice, deuterated are solvents used for NMR spectroscopy typically contain a small amount of TMS, which produces a signal at a lower frequency than the signals produced by most organic compounds. The frequency of each signal is described as the difference (in hertz) between the resonance frequency of the proton being observed and that of TMS divided by the operating frequency of the spectrometer.
+					<br/>
+					<br/>
+					<br/>
+					<img src="ir12.png" id="ir12"></img>
+					<br/>
+					TMS (Silicon with four methyl groups) is used as reference because it is soluble in most organic solvents, is inert, volatile and has 12 hydrogen atoms.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="ir13.png" id="ir13"></img>
+				</p>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<p>
+					The area under each signal on proton NMR is integration--it indicates the number of protons giving rise to the signal (as many chemically equivalent protons can give off one signal). The areas of several signals on one spectrum are taken, and the areas are divided by the smallest area recorded to find the respective number, or relative number of protons emitting each signal.
+				</p>
+				<p>
+					Multiplicity of each signal--number of peaks on a single signal; singlet (1), doublet (2), triplet (3), quartet (4), quintet (5), etc. until a multiplet are common notations for the respective number of peaks; multiplicity is a result of neighboring protons--indicator of the number of neighboring protons; spin-spin splitting, or coupling is a result of a neighboring protons splitting a signal into multiple peak;multiplicity=number of neighboring protons + 1(n+1 rule); scalar intensities of peaks: doublet = 1 and 1, triplet = 1 and 2 and 1, quartet = 1 and 3 and 3 and 1, quintet = 1 and 4 and 6 and 4 and 1, sextet = 1 and 5 and 10 and 10 and 5 and 1, septet = 1 and 6 and 15 and 20 and 15 and 6 and 1; if protons are separated by more than three sigma bonds, splitting is usually not observed (only with rigid/bicyclic structures); equivalent molecules do not split each other; coupling constant, or j value is measured in hertz--distance between peaks in one signal, neighboring protons have equivalent j values, as they impact each other with the same values--patterns are seen commonly with the 1H spectrum; hydroxyl protons are labile because of the rapid rate at which they are exchanged--no splitting is observed due to the fast rate of the signal; aldehydic protons couple weakly with their neighbors, and if the j value is too small, splitting will not be observed.
+				</p>
+				<br/>
+				<center>
+					</p>
+					<p class='subsubtitle'>-Nuclear Magnetic Resonance-</p>
+					</p>
+						<img src="ir11.png" id="ir11"></img>
+					<p>
+				</center>
 		</div>
 		<?php include "../../includes/dropdown.html"; ?>
 	</body>
