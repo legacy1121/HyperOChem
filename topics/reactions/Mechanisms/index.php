@@ -16,8 +16,20 @@
 			<p>A <i>Transition State</i> is a non-isolatable state in-between reactants and products:</p>
 			<center><img src='trans.png'/></center>
 			<p>An <i>Intermediate</i> is a molecular entity that is formed from the reactants and reacts further to give observed products of a chemical reaction.</p>
+			<center><img src='inter.png'/></center>
+			<hr>
 			<p class='subtitle'>Nucleophiles and Electrophiles</p>
+			<p>An <i>ionic reaction</i> involves ions as reactants, intermediates or products; also known as a polar reaction, the ions are typically intermediates. The two reactants can be classified as a nucleophile and an electrophile. <i>Electrophiles</i> are characterized by their ability to react with a negative charge while <i>nucleophiles</i> are characterized by their ability to react with a positive charge. The strength of a nucleophile is affected by many different factors, especially <i>polarizability</i>: the ability of an atom to distribute its electron density unevenly.</p>
+			<hr>
 			<p class='subtitle'>Mechanisms and Arrow Pushing</p>
+			<i>Nucleophilic Attack</i> - A nucleophilic attack is the process in which a nucleophile “attacks” an electrophile. This happens when the negatively charged nucleophile is attracted to a positively charged nucleus and uses its negative charge to form a bond with the positively charged nucleus.</p>
+			<center><img src='nucleo.png' width='50%'/></center>
+			<p><i>Loss of Leaving Group</i> - The loss of a leaving group occurs when a chemical bond between the main molecule and its substituent chain is broken and the electrons that make up the bond go to the leaving group, giving it a negative charge.</p>
+			<center><img src='loss.png' width='50%'/></center>
+			<p><i>Proton Transfer</i> - Two electrons are transferred from an R-H bond to the R group, while the H leaves and binds to a separate molecule, with the final result being the movement of an H<sup>+</sup> from one molecule to another.</p>
+			<center><img src='proton.png' width='50%'/></center>
+			<p><i>Carbocation Rearrangement</i> - Movement of either a carbon or hydrogen from one carbon to another on the carbon chain to transfer positive charge to a more stable position. The goal is to move the positive charge to the carbon with the most constituents. One constituent on the charged carbon is known as primary, two is secondary, and third is tertiary. Hydrogen transfer is known as a hydride shift and a carbon transfer is known as a methyl shift. Transfers can only occur between adjacent carbons, but more than one can occur in a single reaction.</p>
+			<center><img src='stab.png' width='50%'/></center>
 		</div>
 		<?php include "../../../includes/dropdown.html"; ?>
 	</body>
