@@ -1,6 +1,6 @@
 <html>
 	<?php include "../../../includes/header.html"; ?>
-		<title>Reactions</title>
+		<title>Mechanisms</title>
 	</head>	
 	<body>
 		<div class='main'>
