@@ -6,17 +6,12 @@
 		<div class='main'>
 			<p class='title'>Nomenclature</p>
 			<hr>
-			<p class='subtitle'> The IUPAC System - naming alkanes</p>
-			<p> First, identify the longest carbon chain or parent chain. For example, the alkane chain below contains 8 carbons in its longest chain. </p>
+			<p class='subtitle'> Intro to Nomenclature Notes </p>
+			<p> Identify longest carbon chain or parent chain </p>
 			<img src="CarbonChain.png" alt="Carbon Chain" style="width:301px;height:134px;" />
-			<p>Then, you name the molecule according to number of carbons in parent chain. </p>
+			<p>Name according to number of carbons in parent chain</p>
 			<img src="AlkaneChart.png" alt="Alkane Chart" style="width:676.5px;height:338.5px;" />
-			<p>Substitutent groups are mini-chains that extend away from the parent chain.</p>
-			<p>When naming a chain with multiple substituent groups, name according to the highest number of substituent groups when there are multiple possible parent chains.</p>
-			<img src="substituent.png"/>
-			<hr id='cyc'>
-			<p class='subtitle'>Cycloalkanes</p>
-			<p>Cyclic compounds are molecules with a ring of carbons. When naming cyclic compounds, add the prefix <i>-cyclo</i> to the beginning of the name.</p>
+			<p>Name according to the highest number of substituents when multiple possible parent chains</p>
 			<br />
 			<hr>
 			<p class='subtitle'> Common Substituent Names</p>
