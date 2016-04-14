@@ -9,7 +9,7 @@
 			<p class='subtitle'>General Stereochemistry</p>
 			<p>Stereochemistry is the branch of chemistry concerned with the three-dimensional arrangement of atoms and molecules and the effect of this on chemical reactions.</p>
 			<br/>
-			<hr>
+			<hr id ='newmanprojection'>
 			<p class='subtitle'>Newman Projections</p>
 			<p>Newman projections are a useful tool to help assist with alkane stereochemistry. They allow for an easy method to view the molecule as a whole in order to analyze R and S configuration as well as they show different arrangements such as a “staggered” or “ecppsed” structure.</p>
 			<img src='newmanprojection.png' width = 20% height = 26%/>
