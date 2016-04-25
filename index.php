@@ -12,28 +12,28 @@
 			This site aims to help students grasp the concepts faster by providing resources such as summaries written by other students and links to helpful websites.</p>
 			<p class='subtitle'>Changelog</p>
 			<ul>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li>Deleted</li>
-				<li>Update</li>
-				<li>Base</li>
-				<li>Changed .gitignore</li>
-				<li>Added .gitattributes & .gitignore files</li>
+				<li>2016:03:24 Merge Pull Request #4</li>
+				<li>2016:03:24 Index Creation</li>
+				<li>2016:03:24 Site Structure #4</li>
+				<li>2016:03:24 Resolving Conflicts</li>
+				<li>2016:03:24 Index Update</li>
+				<li>2016:03:23 Site Structure #3</li>
+				<li>2016:03:23 CSS Update #5</li>
+				<li>2016:03:23 Site Structure #2</li>
+				<li>2016:03:23 CSS Update #4</li>
+				<li>2016:03:22 CSS Update #3</li>
+				<li>2016:03:22 Resolving Conflicts</li>
+				<li>2016:03:22 Main Panel Update</li>
+				<li>2016:03:22 Merge Pull Request #1</li>
+				<li>2016:03:22 Dropdown Update #1</li>
+				<li>2016:03:22 CSS Update #2</li>
+				<li>2016:03:22 CSS Update</li>
+				<li>2016:03:21 Site Structure</li>
+				<li>2016:03:21 Deleted</li>
+				<li>2016:03:21 Update</li>
+				<li>2016:03:21 Base</li>
+				<li>2016:03:21 Changed .gitignore</li>
+				<li>2016:03:15 Added .gitattributes & .gitignore files</li>
 			</ul>
 		</div>
 		<?php include "includes/dropdown.html";?>
