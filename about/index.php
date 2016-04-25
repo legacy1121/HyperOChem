@@ -22,23 +22,46 @@
 			<hr>
 			<p class='subtitle'>Website coding and structure</p>
 			<p>
-				Nathan Kong
-				Xiaohan Gao
-				Darong Qi
+				Nathan Kong,
+				Xiaohan Gao,
+				Darong Qi,
 				Khaileif Ngyuen-Hille
 			</p>
 			<p class='subtitle'>Nomenclature</p>
 			<p>
-				Will Douglass
-				Jake Taylor
+				Will Douglass,
+				Jake Taylor,
 				Connor Berry
+			</p>
+			<p class='subtitle'>Nomenclature Videos</p>
+			<p>
+				Adam Gordon,
+				Jack Weakley,
+				Giovanni Zinzi,
+				Kevin Chen,
+				Vale Fitzpatrick
+			</p>
+			<p class='subtitle'>Stereochemistry</p>
+			<p>
+				Alex Vallera,
+				Monica Moody,
+				Andrew Brannon,
+				Jacob Brunk,
+				Jack Renner
+			</p>
+			<p class='subtitle'>Reactions</p>
+			<p>
+				Miles Iola,
+				Coleman Ellis
 			</p>
 			<p class='subtitle'>Spectroscopy</p>
 			<p>
-				Paco Lopez
-				Jordan Fox
+				Paco Lopez,
+				Jordan Fox,
+				Charlotte Clark,
 				Michael Zhao
 			</p>
+			
 			
 		</div>
 		<?php include "../includes/dropdown.html"; ?>
